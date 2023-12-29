@@ -1,0 +1,218 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card{
+  margin: 10px;
+  padding: 10px;
+  width: 20%;
+  border-radius:10px ;
+  border: 2px solid black;
+  height:20%;
+  color:grey
+}
+.card >img{
+  width: 100%;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: black;
+  color: wheat;
+
+}
+ul{
+  display: flex;
+  justify-content: space-between;
+}
+ul>li{
+  margin: 5px;
+  font-size: 20px;
+  list-style: none;
+}
+
+
+.add-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#feedback-form {
+  
+  width: 280px;
+  margin: 0 auto;
+  background-color: #fcfcfc;
+  padding: 20px 50px 40px;
+  box-shadow: 1px 4px 10px 1px #aaa;
+  font-family: sans-serif;
+}
+
+#feedback-form * {
+    box-sizing: border-box;
+}
+
+#feedback-form h2{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#feedback-form input {
+  margin-bottom: 15px;
+}
+
+#feedback-form input[type=text] {
+  display: block;
+  height: 32px;
+  padding: 6px 16px;
+  width: 100%;
+  border: none;
+  background-color: #f3f3f3;
+}
+
+#feedback-form label {
+  color: #777;
+  font-size: 0.8em;
+}
+
+#feedback-form input[type=checkbox] {
+  float: left;
+}
+
+
+
+#feedback-form button[type=submit] {
+  display: block;
+  margin: 20px auto 0;
+  width: 150px;
+  height: 40px;
+  border-radius: 25px;
+  border: none;
+  color: #eee;
+  font-weight: 700;
+  box-shadow: 1px 4px 10px 1px #aaa;
+  
+  background: #207cca; 
+  background: -moz-linear-gradient(left, #207cca 0%, #9f58a3 100%); 
+  background: -webkit-linear-gradient(left, #207cca 0%,#9f58a3 100%); 
+  background: linear-gradient(to right, #207cca 0%,#9f58a3 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207cca', endColorstr='#9f58a3',GradientType=1 ); 
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;700&display=swap');
+
+.wrapper{
+ 
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  display: flex;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.login-container {
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.login-card {
+  width: 350px;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  border: 2px solid;
+  border-radius: 10px;
+  transition: transform 1s ease-in-out;
+}
+
+.login-card:hover {
+  transition: transform 1s ease-in-out;
+  transform: scale(1.2);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 10px;
+}
+
+.loginInput {
+  padding: 15px;
+  border: none;
+}
+
+.loginInput:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+
+ h5,
+.button {
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+}
+.forget {
+  float: right;
+}
+
+.check {
+  margin-top: 1px;
+  float: left;
+}
+p, a {
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.button {
+  background-color: rgb(53, 53, 53);
+  padding: 10px;
+  color: white;
+}
+.button:hover {
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  color: white;
+}
+
+@media (max-width: 450px) {
+  .login-card {
+      width: 100%;
+      max-width: 300px;
+  }
+}
+
+.flex > button{
+ padding: 10px;
+ border-radius: 10px;
+}
+
+ul > li >input{
+  padding: 5px;
+}
+.card > button{
+  background-color: rgba(0, 0, 0, 0.651);
+  color:wheat;
+  border-radius: 5px;
+  padding: 5px;
+  float: right;
+}
+.navbar > .flex > button:hover{
+  transition: transform 1s ease-in-out;
+  transform: scale(1.1);
+}
